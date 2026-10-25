@@ -18,7 +18,7 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(cors({ origin: FRONTEND_URL }));
 
 // TASAS ACTUALIZADAS (Eliminado EUR, añadido CLASICA)
-const TASAS = { USD: 1, RUB: 110, CUP: 835, MLC: 620, CLASICA: 630, USDT: 1.05 };
+const TASAS = { USD: 1, RUB: 110, CUP: 835, MLC: 1.22, CLASICA: 1.32, USDT: 1.05 };
 
 const PROVINCIAS = [
   'La Habana', 'Santiago de Cuba', 'Matanzas', 'Villa Clara', 
